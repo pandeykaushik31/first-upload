@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie-edge">
+        <title>Forms</title>
+    </head>
+    <body style="background-color: bisque">
+        <h2>Intro Form</h2>
+        <form action="backend.php">
+            
+            <div>
+                Name:<input type="text">
+            </div>
+            <br>
+            <div>
+                Role:<input type="text">
+            </div>
+            <br>
+            <div>
+                Email:<input type="email" name="myEmail">
+            </div>
+            <br>
+            <div>
+                DOB:<input type="date" name="myDate">
+
+            </div>
+            <br>
+            <div>
+                Recent Date:<input type="datetime-local" name="myDate"
+            </div>
+            
+            <br>
+            <br>
+            <div>
+                Bonus:<input type="number" name="mybonus"
+            </div>
+            
+            <br>
+            <div>
+                Are you eligible?:<input type="checkbox" name="myEligibility">
+            </div>
+            <br>
+            <div>
+                Gender:Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+                other<input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+               write about yourself:<br><textarea name="myText" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="car">car</label>
+                <select name="myCar" id="car">
+                    <option value="fortuner">fortuner</option>
+                    <option value="thar">Thar</option>
+                    <option value="safari">Safari</option>
+                    <option value="scorpio">Scorpio</option>
+                    <option value="MG hector">MG Hector</option>
+                    <option value="defender">Defender</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+</html>
